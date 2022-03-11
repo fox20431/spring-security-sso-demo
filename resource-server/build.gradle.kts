@@ -1,6 +1,7 @@
 plugins {
     id("org.springframework.boot") version "2.5.2"
     id("io.spring.dependency-management") version "1.0.10.RELEASE"
+    id("nebula.integtest") version "8.2.0"
     java
 }
 

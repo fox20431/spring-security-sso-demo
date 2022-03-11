@@ -7,8 +7,6 @@ import org.springframework.core.env.ConfigurableEnvironment;
 
 /**
  * Adds {@link MockWebServerPropertySource} to the environment.
- *
- * @author Rob Winch
  */
 public class MockWebServerEnvironmentPostProcessor implements EnvironmentPostProcessor, DisposableBean {
 

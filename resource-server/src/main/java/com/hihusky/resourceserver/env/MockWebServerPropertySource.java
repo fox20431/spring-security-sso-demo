@@ -15,8 +15,6 @@ import java.io.IOException;
 
 /**
  * Adds value for mockwebserver.url property.
- *
- * @author Rob Winch
  */
 public class MockWebServerPropertySource extends PropertySource<MockWebServer> implements DisposableBean {
 
